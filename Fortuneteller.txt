@@ -1,0 +1,368 @@
+﻿package com.company;
+
+
+import sun.tools.tree.IfStatement;
+
+
+import java.sql.Time;
+import java.util.Date;
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class Main {
+
+
+   public static void main(String[] args) {
+       /*
+       String name = guest name
+
+
+        */
+
+
+       //Get name input
+       System.out.println("Welcome visit.  What is your name?");
+       Scanner scanner = new Scanner(System.in);
+       String name = scanner.nextLine();
+       System.out.println("Welcome " + name + ". Answer my questions and I will tell you your fortune.");
+
+
+       /*
+       Using Random class in Java. Random rand = new Random();
+       int value = rand.nextInt(50);
+       This will give value from 0 to 49. For 1 to 50: rand.nextInt(50) + 1;
+        */
+
+
+       Random rand = new Random();
+       int value = rand.nextInt(3);
+       int q1 = value;
+
+
+
+
+       /*
+       Use If then statements to assign question 1 (q1)
+       int testscore = 76;
+
+
+       char grade;
+
+
+       if (testscore >= 90) {
+           grade = 'A';
+       } else if (testscore >= 80) {
+           grade = 'B';
+       } else if (testscore >= 70) {
+           grade = 'C';
+       } else if (testscore >= 60) {
+           grade = 'D';
+       } else {
+           grade = 'F';
+       }
+       System.out.println("Grade = " + grade);
+       */
+
+
+       if (q1 == 2) {
+           System.out.println("What is your favorite color?");
+       } else if (q1 == 1) {
+           System.out.println("What month were you born in?");
+       } else {
+           System.out.println("What did you eat for breakfast?");
+       }
+
+
+       String a1 = scanner.nextLine();
+
+
+       Random rand2 = new Random();
+       int value2 = rand.nextInt(4);
+       int q2 = value2;
+
+
+       if (q2 == 2) {
+           System.out.println("Where were you born?");
+       } else if (q2 == 1) {
+           System.out.println("Where do you live?");
+       } else {
+           System.out.println("Where are my pants?");
+       }
+
+
+       String a2 = scanner.nextLine();
+
+
+       Random rand3 = new Random();
+       int value3 = rand.nextInt(4);
+       int q3 = value3;
+
+
+       if (q3 == 2) {
+           System.out.println("Why are you talking to me?");
+       } else if (q3 == 1) {
+           System.out.println("Why am I stuck in this computer?");
+       } else {
+           System.out.println("Why does your breath smell like that?");
+       }
+
+
+       String a3 = scanner.nextLine();
+
+
+       Random rand4 = new Random();
+       int value4 = rand.nextInt(5);
+       int r1 = value4;
+
+
+       if (r1 == 3) {
+           System.out.println("You are a very silly person.");
+       } else if (r1 == 1) {
+           System.out.println("You are a very deep person.");
+       } else {
+           System.out.println("You ought to consider yoga.");
+       }
+
+
+       System.out.println("Here is your fortune:");
+
+
+       Random rand5 = new Random();
+       int value5 = rand.nextInt(10);
+       int r2 = value4;
+
+
+       if (r2 == 9) {
+           System.out.println("Wings take you places but imagination takes you farther.");
+       } else if (r2 == 1) {
+           System.out.println("Birds of feather flock together, but birds of a scaley skin are really dinosaurs and will eat you.");
+       } else if (r2 == 2) {
+           System.out.println("You will soon get a magic 8 ball so I can stop doing this.");
+       } else if (r2 == 3) {
+           System.out.println("Someone with more charm, money, and luck than you will realize your dreams.");
+       } else if (r2 == 4) {
+           System.out.println("Keep your friends rich and your enemies rich and wait to find out which is which");
+       } else if (r2 == 5) {
+           System.out.println("If you are looking for advice from a computer program you should get out and make some friends.");
+       } else if (r2 == 6) {
+           System.out.println("If you are looking for the magic 8 ball, it's next door.");
+       } else if (r2 == 7) {
+           System.out.println("Your life will come to a sad, abrupt end when you are attacked by a rabid manatee.");
+       } else if (r2 == 8) {
+           System.out.println("I need a bogle for the glotch");
+       } else {
+           System.out.println("Your fly is down.  Made you look.");
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   }
+}
+package com.company;
+
+
+import sun.tools.tree.IfStatement;
+
+
+import java.sql.Time;
+import java.util.Date;
+import java.util.Random;
+import java.util.Scanner;
+
+
+public class Main {
+
+
+   public static void main(String[] args) {
+       /*
+       String name = guest name
+
+
+        */
+
+
+       //Get name input
+       System.out.println("Welcome visit.  What is your name?");
+       Scanner scanner = new Scanner(System.in);
+       String name = scanner.nextLine();
+       System.out.println("Welcome " + name + ". Answer my questions and I will tell you your fortune.");
+
+
+       /*
+       Using Random class in Java. Random rand = new Random();
+       int value = rand.nextInt(50);
+       This will give value from 0 to 49. For 1 to 50: rand.nextInt(50) + 1;
+        */
+
+
+       Random rand = new Random();
+       int value = rand.nextInt(3);
+       int q1 = value;
+
+
+
+
+       /*
+       Use If then statements to assign question 1 (q1)
+       int testscore = 76;
+
+
+       char grade;
+
+
+       if (testscore >= 90) {
+           grade = 'A';
+       } else if (testscore >= 80) {
+           grade = 'B';
+       } else if (testscore >= 70) {
+           grade = 'C';
+       } else if (testscore >= 60) {
+           grade = 'D';
+       } else {
+           grade = 'F';
+       }
+       System.out.println("Grade = " + grade);
+       */
+
+
+       if (q1 == 2) {
+           System.out.println("What is your favorite color?");
+       } else if (q1 == 1) {
+           System.out.println("What month were you born in?");
+       } else {
+           System.out.println("What did you eat for breakfast?");
+       }
+
+
+       String a1 = scanner.nextLine();
+
+
+       Random rand2 = new Random();
+       int value2 = rand.nextInt(4);
+       int q2 = value2;
+
+
+       if (q2 == 2) {
+           System.out.println("Where were you born?");
+       } else if (q2 == 1) {
+           System.out.println("Where do you live?");
+       } else {
+           System.out.println("Where are my pants?");
+       }
+
+
+       String a2 = scanner.nextLine();
+
+
+       Random rand3 = new Random();
+       int value3 = rand.nextInt(4);
+       int q3 = value3;
+
+
+       if (q3 == 2) {
+           System.out.println("Why are you talking to me?");
+       } else if (q3 == 1) {
+           System.out.println("Why am I stuck in this computer?");
+       } else {
+           System.out.println("Why does your breath smell like that?");
+       }
+
+
+       String a3 = scanner.nextLine();
+
+
+       Random rand4 = new Random();
+       int value4 = rand.nextInt(5);
+       int r1 = value4;
+
+
+       if (r1 == 3) {
+           System.out.println("You are a very silly person.");
+       } else if (r1 == 1) {
+           System.out.println("You are a very deep person.");
+       } else {
+           System.out.println("You ought to consider yoga.");
+       }
+
+
+       System.out.println("Here is your fortune:");
+
+
+       Random rand5 = new Random();
+       int value5 = rand.nextInt(10);
+       int r2 = value4;
+
+
+       if (r2 == 9) {
+           System.out.println("Wings take you places but imagination takes you farther.");
+       } else if (r2 == 1) {
+           System.out.println("Birds of feather flock together, but birds of a scaley skin are really dinosaurs and will eat you.");
+       } else if (r2 == 2) {
+           System.out.println("You will soon get a magic 8 ball so I can stop doing this.");
+       } else if (r2 == 3) {
+           System.out.println("Someone with more charm, money, and luck than you will realize your dreams.");
+       } else if (r2 == 4) {
+           System.out.println("Keep your friends rich and your enemies rich and wait to find out which is which");
+       } else if (r2 == 5) {
+           System.out.println("If you are looking for advice from a computer program you should get out and make some friends.");
+       } else if (r2 == 6) {
+           System.out.println("If you are looking for the magic 8 ball, it's next door.");
+       } else if (r2 == 7) {
+           System.out.println("Your life will come to a sad, abrupt end when you are attacked by a rabid manatee.");
+       } else if (r2 == 8) {
+           System.out.println("I need a bogle for the glotch");
+       } else {
+           System.out.println("Your fly is down.  Made you look.");
+       }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   }
+}
